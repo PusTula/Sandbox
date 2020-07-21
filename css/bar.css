@@ -1,0 +1,147 @@
+/* ELŐZETES/ALAP BEÁLLÍTÁSOK */
+* {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Sans-serif;
+}
+#fotarolo {
+	background-color: #1D2F50;
+	position: relative;
+	min-width: 1300px;
+}
+/* NAVIGÁCIÓS PANEL */
+nav {
+	position: static;
+	height: 48px;
+	min-width: 100%;
+	z-index: 1000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(62,60,61,0.6);
+}
+ul {
+	list-style-type: none;
+	margin: 0px auto;
+}
+li {
+	float: left;
+	border-right: 2px solid white;
+}
+li a {
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+li a:hover, a:active {
+	background-color: #3E3C3D;
+}
+/* ÜDVÖZLŐ ABLAK+SZÖVEG */
+header {
+	background-image: url("../images/3glass.jpg");
+	background-position: center 77%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 940px;
+}
+header div {
+	position: relative;
+	top: 280px;
+	background-color: #3E3C3D;
+	opacity: 0.8
+}
+header div h1, header div p{
+	text-transform: uppercase;
+}
+.welcome {
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+/* ELÉRHETŐSÉGI IKONOK */
+footer {
+	position: relative;
+}
+/* TARTALOM */
+main {
+	background-image: url("../images/bg/wooden_table2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 2250px;
+}
+main h2 {
+	font-size: 28pt;
+	margin-bottom: 20px;
+	font-variant: small-caps;
+}
+main div {
+	height: 400px;
+	margin-left: auto;
+	padding: 20px;
+}
+
+/* Útólag hozzáadva */
+.szoveg {
+	
+}
+
+#rolunk img, #gyertek img, #elerhetoseg img{
+	float: left;
+}
+#rolunk p, #gyertek p{
+	font-size: 16pt;
+	padding: 20px;
+}
+#elerhetoseg p {
+	font-size: 22pt;
+	padding: 20px;
+}
+#gyertek td{
+	font-weight: bold;
+	font-size: 14pt;
+	text-transform: uppercase;
+	padding: 15px;
+}
+#akciok img, #foglalas img {
+	float: right;
+
+}
+#akciok p, #foglalas p {
+	font-size: 16pt;
+	padding: 20px;
+}
+img {
+	height: 350px;
+	margin: 0px 50px;
+	border: 2px solid #C37149;
+}
+span {
+	font-style: italic;
+	text-decoration: underline;
+}
+.navskip { /* Azért hoztam létre, hogy elkerüljem a menü használatakor ne takarja a menüsör a tartalmat */
+	padding-bottom: 48px;
+}
+
+#lablec {
+	margin-top: 50px;
+	width: auto;
+	height: 150px;
+	background-color: rgb(30, 30, 30);
+}
+
+#lablec p {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#lablec span {
+	font-weight: bold;
+	color: rgb(255, 120, 120);
+}

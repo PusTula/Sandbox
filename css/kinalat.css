@@ -1,0 +1,110 @@
+/* ELŐZETES/ALAP BEÁLLÍTÁSOK */
+* {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Sans-serif;
+}
+body {
+
+}
+#fotarolo {
+	background-image: url("../images/bluredbar2.jpg");
+	background-color: #1D2F50;
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 50px;
+	min-width: 1300px;
+	min-height: 1125px;
+}
+/* NAVIGÁCIÓS PANEL */
+nav {
+	height: 48px;
+	min-width: 100%;
+	z-index: 1000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(195,113,73,0.6);
+}
+ul {
+	list-style-type: none;
+	margin: 0px auto;
+}
+li {
+	float: left;
+	border-right: 2px solid white;
+}
+li a {
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+li a:hover, a:active {
+	background-color: #C37149;
+}
+/* TARTALOM */
+#kinalat {
+	position: relative;
+	width: 80%;
+	height: auto;
+	margin: 0px auto 0px auto;
+	padding-bottom: 15px;
+}
+#kinalat h2 {
+	font-size: 24pt;
+}
+#kinalat h2, h3 {
+	font-variant: small-caps;
+}
+#kinalat h3 {
+	font-size: 18pt;
+	text-align: center;
+	border-bottom: 5px solid white;
+}
+.nagydiv {
+	min-width: 95%;
+	height: 300px;
+	margin: 25px auto;
+	padding: 15px;
+	background-color: rgb(195,113,73,0.8);
+}
+.kisdiv {
+	float: left;
+	width: 33.2%;
+	height: 99%;
+	opacity: initial;
+}
+.kisdiv p{
+	padding-left: 10px;
+	font-size: 14pt;
+	text-decoration: underline;
+}
+.kisdiv img {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	width: 250px;
+	margin: 0px auto;
+}
+.bal {
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+.center {
+}
+
+.jobb {
+	border-right: 2px solid white;
+	border-top: 2px solid white;
+}
+
+.navskip { /* Azért hoztam létre, hogy elkerüljem a menü használatakor ne takarja a menüsör a tartalmat */
+	padding-bottom: 48px;
+}

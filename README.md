@@ -4,4 +4,4 @@ This is my first STATIC website from 2 years ago made for a school project, to p
 
 The code's language is hungarian.
 
-The concept is not complete, and was only developed until the day of presentation.
+The was only developed until the day of presentation.
